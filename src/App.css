@@ -1,38 +1,47 @@
+/* src/App.css */
+
 .App {
   text-align: center;
+  margin: 20px;
+  font-family: 'Arial', sans-serif; /* Fonte moderna */
+  color: #5a3e36; /* Cor do texto, um tom marrom escuro */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background: #a25c43; /* Cor sólida de fundo pastel amarronzada */
+  padding: 15px 20px; /* Aumenta o padding para um visual mais espaçado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para profundidade */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Usando flexbox para uma melhor disposição dos itens */
+  justify-content: center; /* Centraliza os itens */
+  margin: 0; /* Remove a margem padrão */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li {
+  margin: 0 20px; /* Aumenta o espaçamento entre os itens */
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li a {
+  color: #ffffff; /* Cor sólida branca para os links */
+  text-decoration: none;
+  padding: 10px 20px; /* Adiciona padding ao link para um espaço clicável maior */
+  border-radius: 4px; /* Bordas arredondadas para links */
+  transition: background 0.3s; /* Transição suave para o hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li a:hover {
+  background: #5a3e36; /* Efeito de hover com cor sólida */
+  color: #ffffff; /* Mantém a cor do texto branca no hover */
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px 20px; /* Aumenta o padding para o footer */
+  background: #a25c43; /* Mesma cor sólida do header para consistência */
+  color: #ffffff; /* Cor do texto no footer */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra invertida para o footer */
 }

@@ -1,0 +1,24 @@
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #007acc;
+  color: #fff;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,21 @@
+.header {
+    background: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
